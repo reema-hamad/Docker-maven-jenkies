@@ -7,7 +7,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('jenkins-aws-secret-access-key')
 
         AWS_S3_BUCKET = "artefact-bucket-repo"
-        ARTIFACT_NAME = "Hello-hanan.jar"
+        ARTIFACT_NAME = "Maven-java-spring-boot-0.0.1-SNAPSHOT.jar"
         AWS_EB_APP_NAME = "java-webapp"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Javawebapp-env"
